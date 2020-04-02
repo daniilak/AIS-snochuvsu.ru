@@ -1,0 +1,173 @@
+{
+    "sitename": "АИС СНО 2.0",
+    "controllers": {
+        "main": {
+            "reserved": [
+                true
+            ],
+            "main": [
+                true
+            ],
+            
+            "data": {
+                "title": "АИС СНО 2.0",
+                "js": "",
+                "css": "",
+                "status": 0
+            }
+        },
+        "404": {
+            "reserved": [
+                true
+            ],
+            "main": [
+                true
+            ],
+            "data": {
+                "title": "Не найдено",
+                "js": "",
+                "css": "",
+                "status": 0
+            }
+        },
+        "api": {
+            "reserved": [
+                true
+            ],
+            "main": [
+                true
+            ],
+            "data": {
+                "title": "API",
+                "js": "",
+                "css": "",
+                "status": 0
+            }
+        },
+        "event": {
+            "reserved": [
+                true
+            ],
+            "main": [
+                false
+            ],
+            "data": {
+                "title": "Редактирование мероприятия",
+                "icon": "home",
+                "js": "'<script src='../dist/js/pages/starter.js?v={version}'></script>",
+                "css": "",
+                "status": 1
+            }
+        },
+        "starter": {
+            "reserved": [
+                true
+            ],
+            "main": [
+                false
+            ],
+            "data": {
+                "title": "Главная",
+                "js": "'<script src='../dist/js/pages/starter.js?v={version}'></script>",
+                "css": "",
+                "status": 0,
+                "menu": 0
+            }
+        },
+        "events": {
+            "reserved": [
+                true
+            ],
+            "main": [
+                false
+            ],
+            "data": {
+                "issetID": 1,
+                "title": "Мероприятия",
+                "js": "'<script src='../dist/js/pages/events.js?v={version}'></script>",
+                "css": "",
+                "status": 0,
+                "menu": 0
+            }
+        },
+        
+        "diploma": {
+            "reserved": [
+                true
+            ],
+            "main": [
+                true
+            ],
+            "data": {
+                "issetID": 1,
+                "title": "Печать",
+                "js": "",
+                "css": "",
+                "status": 0
+            }
+        },
+        "print": {
+            "reserved": [
+                true
+            ],
+            "main": [
+                true
+            ],
+            "data": {
+                "issetID": 1,
+                "title": "Печать",
+                "js": "",
+                "css": "",
+                "status": 0
+            }
+        },
+        "manual": {
+            "reserved": [
+                true
+            ],
+            "main": [
+                false
+            ],
+            "data": {
+                "title": "Настройка",
+                "icon": "cog",
+                "js": "",
+                "css": "",
+                "status": 2,
+                "menu": 0
+            }
+        },
+        "stats": {
+            "reserved": [
+                true
+            ],
+            "main": [
+                true
+            ],
+            "data": {
+            	"issetID": 1,
+                "title": "Статистика",
+                "js": "'<script src='../dist/js/pages/stats.js?v={version}'></script>",
+                "css": "",
+                "status": -1,
+                "menu": 0
+            }
+        },
+        "program": {
+            "reserved": [
+                true
+            ],
+            "main": [
+                true
+            ],
+            "data": {
+            	"issetID": 1,
+                "title": "Календарь",
+                "js": "'<script src='../dist/js/pages/stats.js?v={version}'></script>",
+                "css": "",
+                "status": -1,
+                "menu": 0
+            }
+        }
+    }
+}
