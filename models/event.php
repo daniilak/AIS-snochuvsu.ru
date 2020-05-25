@@ -1,19 +1,9 @@
 <?php
 Cookies::authCheck();
-$template->templateSetVar('role', $GLOBALS['user']['id_role']);
-$role = "СуперАдминистратор";
-switch($GLOBALS['user']['id_role']) {
-	case 0:
-		$role = "Пользователь";
-		break;
-	case 1:
-		$role = "Модератор";
-		break;
-	case 2:
-		$role = "Руководство СНО";
-		break;
-		
+if ($GLOBALS['user']['id_role'] < 2) {
+	echo "System closed";die();
 }
-$template->templateSetVar('name_role', $GLOBALS['user']['first_name'].' Роль: '.$role);
+$template->templateSetVar('role', $GLOBALS['user']['id_role']);
+$template->templateSetVar('name_role', Cookies::getNameUserRole());
 $template->templateCompile();
 $template->templateDisplay();

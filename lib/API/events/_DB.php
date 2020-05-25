@@ -15,7 +15,7 @@ class EventsDB {
 		return DataBase::SQL("SELECT `pass` FROM  `".$this->nameTable."`  WHERE `ID` = ?",[$id_event]);
 	}
 	function selectIdAndName($id_fac) {
-		return DataBase::SQL("SELECT `ID`, name FROM  `".$this->nameTable."`  WHERE `id_fac` = ? ORDER BY `name`",[$id_fac]);
+		return DataBase::SQL("SELECT `ID`, name FROM  `".$this->nameTable."`  WHERE `id_fac` = ? AND `id_event` = 5 ORDER BY `name`",[$id_fac]);
 	}
 	function selectIDConf($id_event) {
 		return DataBase::SQL(
@@ -81,7 +81,7 @@ class EventsDB {
 			FROM `requests`
 			INNER JOIN `users_sections`
 			ON `users_sections`.`id_request` = `requests`.`ID`
-			WHERE `requests`.`ID` = ? AND `users_sections`.`name_organization` != 'ФГБОУ ВО «ЧГУ им. И.Н. Ульянова»'
+			WHERE `requests`.`id_section` = ? AND `users_sections`.`name_organization` != 'ФГБОУ ВО «ЧГУ им. И.Н. Ульянова»'
 			GROUP BY `users_sections`.`name_organization`",
 			[$id]);
 		if (isset($s[0])) {

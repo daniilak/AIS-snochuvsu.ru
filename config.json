@@ -129,11 +129,41 @@
                 false
             ],
             "data": {
-                "title": "Настройка",
-                "icon": "cog",
+                "title": "Пользователи",
                 "js": "",
                 "css": "",
                 "status": 2,
+                "menu": 0
+            }
+        },
+        "cogs": {
+            "reserved": [
+                true
+            ],
+            "main": [
+                false
+            ],
+            "data": {
+                "title": "Настройка системы",
+                "icon": "cogs",
+                "js": "",
+                "css": "",
+                "status": 5,
+                "menu": 0
+            }
+        },
+        "list": {
+            "reserved": [
+                true
+            ],
+            "main": [
+                true
+            ],
+            "data": {
+                "title": "Список",
+                "js": "",
+                "css": "",
+                "status": 5,
                 "menu": 0
             }
         },

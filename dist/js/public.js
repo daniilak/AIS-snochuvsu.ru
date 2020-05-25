@@ -5,16 +5,15 @@
  */
 
 function getMenu() {
-  if (localStorage.getItem("menuOpen") && localStorage.getItem("version")) {
-    if (localStorage.getItem("version") == version) {
-      renderMenu(JSON.parse(localStorage.getItem("menuOpen")));
-      return;
+  let ver = document.querySelector("[data-version]").getAttribute("data-version");
+  if (localStorage.getItem("version")) {
+    if (localStorage.getItem("version") != ver) {
+      localStorage.clear();
     }
   }
-  localStorage.clear();
+  
   getJSON("/api/menu/getOpen", null, menu => {
-    localStorage.setItem("version", 10);
-    localStorage.setItem("menuOpen", JSON.stringify(menu));
+    localStorage.setItem("version", ver);
     renderMenu(menu);
   });
 }
@@ -524,7 +523,7 @@ function sendZ() {
 				city: document.querySelector(`[data-mem-val="${i}"][data-mem-type="city"]`).value,
 				n_o: document.querySelector(`[data-mem-val="${i}"][data-mem-type="n_o"]`).value,
 				phone: document.querySelector(`[data-mem-val="${i}"][data-mem-type="phone"]`).value,
-				b: document.querySelector(`[data-mem-val="${0}"][data-mem-type="b"]:checked`).value
+				b: document.querySelector(`[data-mem-val="${i}"][data-mem-type="b"]:checked`).value
 	    	})
 		}
 	}
@@ -543,7 +542,7 @@ function sendZ() {
 			if (document.querySelector(`[data-leader-val="${i}"][data-leader-type="mN"]`).value.length == 0) {
 				alert("Не все заполнены поля"); return;
 			}
-			members.push({
+			leaders.push({
 				lN: document.querySelector(`[data-leader-val="${i}"][data-leader-type="lN"]`).value,
 				fN: document.querySelector(`[data-leader-val="${i}"][data-leader-type="fN"]`).value,
 				mN: document.querySelector(`[data-leader-val="${i}"][data-leader-type="mN"]`).value,

@@ -7,8 +7,8 @@
   <title>Протокол</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <link rel="stylesheet" href="http://ais.snochuvsu.ru/plugins/fontawesome-free/css/all.min.css">
-  <link rel="stylesheet" href="http://ais.snochuvsu.ru/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="//ais.snochuvsu.ru/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="//ais.snochuvsu.ru/dist/css/adminlte.min.css">
   
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -21,7 +21,7 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body onload="window.print();">
+<body onload="setTimeout(myFunction, 2000);">
 <div class="wrapper">
   <!-- Main content -->
   <section class="invoice">
@@ -86,5 +86,12 @@
   <!-- /.content -->
 </div>
 <!-- ./wrapper -->
+<script>
+	function myFunction() {
+    window.print();
+}
+
+
+</script>
 </body>
 </html>

@@ -6,18 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>{title}</title>
-  <link rel="stylesheet" href="http://ais.snochuvsu.ru/plugins/fontawesome-free/css/all.min.css">
-  <link rel="stylesheet" href="http://ais.snochuvsu.ru/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
-  <link rel="stylesheet" href="http://ais.snochuvsu.ru/dist/css/adminlte.min.css">
-  <link rel="stylesheet" href="http://ais.snochuvsu.ru/dist/css/adminlteOld.css">
+  <link rel="stylesheet" href="//ais.snochuvsu.ru/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="//ais.snochuvsu.ru/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+  <link rel="stylesheet" href="//ais.snochuvsu.ru/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="//ais.snochuvsu.ru/dist/css/adminlteOld.css">
   
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <style>
+  	@media only screen and (max-width: 600px) {
+	  .timeline>li>.timeline-item {
+	   margin-left: 0;
+       margin-right: 0;
+	  }
+	  .container-fluid.row {
+	  	padding:0;
+	  }
+	}
+  </style>
 </head>
   
-<body class="hold-transition skin-blue layout-top-nav" data-version="12" data-role="{role}">
+<body class="hold-transition skin-blue layout-top-nav" data-version="400" data-role="{role}">
   <div class="wrapper">
   	<nav class="navbar navbar-expand-sm navbar-dark navbar-gray-dark">
-      <a class="navbar-brand" href="#">АИС 2.0</a>
+      <a class="navbar-brand" href="/">АИС СНО «Основа»</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -42,7 +53,7 @@
           <div class="float-right d-none d-sm-inline">
             Будущее за наукой!
           </div>
-          <strong>Copyright &copy; 2016 <a href="https://daniilak.ru">Даниил Агниашвили</a>.</strong> All rights
+          <strong>Copyright &copy;  <a href="https://daniilak.ru">Даниил Агниашвили</a>.</strong> All rights
           reserved.
         </footer>
       </div>
@@ -169,16 +180,16 @@
 	    	</div>
 		</div>
 	</div>
-	    <script src="http://ais.snochuvsu.ru/plugins/jquery/jquery.min.js"></script>
-	<script src="http://ais.snochuvsu.ru/dist/js/root.js"></script>
-	<script src="http://ais.snochuvsu.ru/dist/js/public.js"></script>
-	<script src="http://ais.snochuvsu.ru/dist/js/actions.js"></script>
-    <script src="http://ais.snochuvsu.ru/dist/js/loader.js"></script>
+	    <script src="//ais.snochuvsu.ru/plugins/jquery/jquery.min.js"></script>
+	<script src="//ais.snochuvsu.ru/dist/js/root.js?v=13"></script>
+	<script src="//ais.snochuvsu.ru/dist/js/public.js?v=13"></script>
+	<script src="//ais.snochuvsu.ru/dist/js/actions.js?v=13"></script>
+    <script src="//ais.snochuvsu.ru/dist/js/loader.js?v=13"></script>
     <script src="https://www.cssscript.com/demo/multi-select-autocomplete-selectpure/bundle.min.js"></script>
 
   
-      <script src="http://ais.snochuvsu.ru/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-      <script src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+      <script src="//ais.snochuvsu.ru/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="//ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
 </body>
 
 </html>

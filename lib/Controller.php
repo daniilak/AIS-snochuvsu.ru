@@ -105,7 +105,7 @@ class Controller
 		$os = array(
 			"menu", 'auth', 'manual',
 			"users", "events", "requests", "members", 'supervisors', 'juri', 'recs',
-			"facs", "eventTypes", 'instTypes',"positions","news", "chat", "conf"
+			"facs", "eventTypes", 'instTypes',"positions","news", "comments", "conf"
 		);
 		if (in_array($params[1], $os)) {
 		    require_once(__DIR__ . '/API/'.$params[1].'/index.php');

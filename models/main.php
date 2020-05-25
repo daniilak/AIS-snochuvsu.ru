@@ -20,13 +20,12 @@ if (isset($_GET['code'])) {
 	        $template->templateCompile(); $template->templateDisplay();
 	    }
 		$secret =  Ref::GUID();
-		// var_dump($userData);
 		DataBase::SQL(
 			"INSERT INTO `users` (`id_vk`,`photo`,`first_name`,`GUID`,`id_role`)  VALUES (?,?,?,?,0)",
 			[$user_id, $userData[0]['photo_100'], $userData[0]['first_name'].' '.$userData[0]['last_name'], $secret],
 			false
 		);
-		$maxID = DataBase::SQL("SELECT `ID`,`GUID`  FROM `users` WHERE `id_vk` = ? LIMIT 1");
+		$maxID = DataBase::SQL("SELECT `ID`,`GUID`  FROM `users` WHERE `id_vk` = ? LIMIT 1", [$userData[0]['id']]);
 		$salt = Ref::getSalt();
         $token = $salt . '_' . md5(join('_', array($maxID[0]['GUID'],  $salt)));
         Cookies::setCookie($token, $maxID[0]['ID']);
@@ -49,7 +48,8 @@ if (isset($_GET['code'])) {
         	$secret = Ref::GUID();
         	DataBase::SQL(
 				"UPDATE `users` SET `GUID` = ? WHERE `ID` = ?",
-				[$secret, $t[0]['ID']]
+				[$secret, $t[0]['ID']],
+				false
 			);
             $salt = Ref::getSalt();
             $token = $salt . '_' . md5(join('_', array($secret,  $salt)));

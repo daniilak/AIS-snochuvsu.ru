@@ -7,10 +7,10 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>АИС СНО «Основа»</title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="http://ais.snochuvsu.ru/plugins/fontawesome-free/css/all.min.css">
-  <link rel="stylesheet" href="http://ais.snochuvsu.ru/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
-  <link rel="stylesheet" href="http://ais.snochuvsu.ru/plugins/select2/css/select2.min.css">
-  <link rel="stylesheet" href="http://ais.snochuvsu.ru/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="//ais.snochuvsu.ru/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="//ais.snochuvsu.ru/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+  <link rel="stylesheet" href="//ais.snochuvsu.ru/plugins/select2/css/select2.min.css">
+  <link rel="stylesheet" href="//ais.snochuvsu.ru/dist/css/adminlte.min.css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
 </head>
@@ -39,13 +39,13 @@
         <p class="float-right">
           Будущее за наукой!
         </p>
-        <strong>Copyright &copy; 2016 <a href="https://daniilak.ru">Даниил Агниашвили</a>.</strong> All rights
+        <strong>Copyright &copy;  <a href="https://daniilak.ru">Даниил Агниашвили</a>.</strong> All rights
           reserved.
       </div>
     </footer>
 
-<script src="http://ais.snochuvsu.ru/plugins/jquery/jquery.min.js"></script>
-<script src="http://ais.snochuvsu.ru/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+<script src="//ais.snochuvsu.ru/plugins/jquery/jquery.min.js"></script>
+<script src="//ais.snochuvsu.ru/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="//ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
 </body>
 </html>

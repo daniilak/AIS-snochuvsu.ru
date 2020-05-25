@@ -26,9 +26,10 @@ class SuperVisorsDB {
         );
 	}
 	function insert($id_section) {
+		$userID = (isset($GLOBALS['user'])) ? $GLOBALS['user']['id_vk'] : 1;
 		DataBase::SQL(
 			"INSERT INTO `".$this->nameTable."`  (`id_user_who_add`,`id_section`) VALUES (?,?)",
-			[$GLOBALS['user']['id_vk'], $id_section],
+			[1, $id_section],
 			false
 		);
 		return $this->getLast();

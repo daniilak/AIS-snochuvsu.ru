@@ -55,7 +55,12 @@ class Events extends EventsDB {
 		
 		$r = new RequestsDB();
 		$man = new ManagersDB();
-		$data = $this->select(intval($_POST['conf_id']), intval($_POST['filter_fac']), intval($_POST['filter_type']), $_POST['filter_search']);
+		$data = $this->select(
+			intval($_POST['conf_id']),
+			intval($_POST['filter_fac']),
+			intval($_POST['filter_type']),
+			$_POST['filter_search']
+		);
 		$answer = [];
 		foreach ($data as $key => $d) {
 			$answer[] = $d;
@@ -100,7 +105,7 @@ class Events extends EventsDB {
 				$answer[$date] = [];
 			}
 			$d["m1"] = $man->selectGreatManagers($d['ID'])[0];
-			$d["m2"] = $man->selectGreatManagers($d['ID'])[0];
+			$d["m2"] = $man->selectGreatManagers($d['ID'])[1];
 			
 			$answer[$date][] = $d;
 		}
@@ -149,6 +154,7 @@ class Events extends EventsDB {
 			$this->updateEvent("id_disabled_place", intval($_POST['checked']), $_POST['id']);
 			return ['data' => true];	
 		}
+		
 		return ['data' => false];
 	}
 	

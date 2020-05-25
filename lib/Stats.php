@@ -20,49 +20,130 @@ class Stats
     	return $this->ID;
     }
 
+
+	// public function getListEvents()	{
+		
+	// 	return DataBase::SQL("SELECT GROUP_CONCAT(`name_event` SEPARATOR '`') cnt FROM `events`")[0]['cnt'];
+	// }
+	
+
+	public function getFacs()	{
+		
+		return DataBase::SQL("SELECT `ID`, `full_name` FROM `facs` WHERE `facs`.`ID` > 1");
+	}
+	public function getEventsList()	{
+		
+		return DataBase::SQL("SELECT `ID`, `name` FROM `events`");
+	}
+	
+	public function getTypeEventsList()	{
+		
+		return DataBase::SQL("SELECT `ID`, `type` FROM `type_sections`");
+	}
+	
+	
+	
+	public function countEvents()	{
+		
+		return DataBase::SQL("
+			SELECT GROUP_CONCAT(cnt) cnt, GROUP_CONCAT(CONCAT(\"'\",`name_event`,\"'\") SEPARATOR ',') as `l`
+			  FROM
+			(
+			  SELECT COUNT(`sections`.`id_event`) as `cnt`, `events`.`name_event`
+			    FROM `sections`
+                INNER JOIN `events` ON `events`.`ID` = `sections`.`id_event`
+			   GROUP BY `sections`.`id_event`
+			) q "
+		)[0];
+	}
+	public function countEventsByFac($id)	{
+		
+		return DataBase::SQL("
+			SELECT  GROUP_CONCAT(IFNULL(`count`,0) )as `count`
+			FROM
+			(
+			    SELECT COUNT(`sections`.`id_event`) as `count`,`sections`.`id_event` FROM `sections`
+				WHERE `id_fac` = ?
+				GROUP BY `sections`.`id_event`
+			) `q`
+			RIGHT JOIN `events` ON `events`.`ID` = `q`.`id_event`",
+			[$id]
+		)[0]["count"];
+	}
+	public function countEventsByType($id)	{
+		
+		return DataBase::SQL("
+			SELECT  GROUP_CONCAT(IFNULL(`count`,0) )as `count`
+			FROM
+			(
+			    SELECT COUNT(`sections`.`id_event`) as `count`,`sections`.`id_event` FROM `sections`
+				WHERE `id_type_section` = ?
+				GROUP BY `sections`.`id_event`
+			) `q`
+			RIGHT JOIN `events` ON `events`.`ID` = `q`.`id_event`",
+			[$id]
+		)[0]["count"];
+	}
+	public function countRecoms()	{
+		
+		return DataBase::SQL('
+			SELECT COUNT( `recommendations`.`ID`) as `count`, `recommendations`.`recommendation` as `name`, `events`.`name_event`
+			FROM `recommendations`
+			INNER JOIN `recom_request` ON `recom_request`.`id_recom` = `recommendations`.`ID`
+			INNER JOIN `events` ON `events`.`ID` = `recommendations`.`id_event`
+			WHERE `recom_request`.`checked` = 1 
+			GROUP BY `recommendations`.`id_event`,`recommendations`.`ID`'
+		);
+	}
+	
+
+
+
+
+
 	/*
 	* Подсчитываем количество секций 
 	*
 	*/
 	public function countSections()	{
 		
-		$this->all []= DataBase::SQL("
-			SELECT COUNT(`sections`.`id_fac`) AS `count`, '<b>Количество мероприятий всего по конференции:</b>' as 'name'
-			FROM `sections`
-			INNER JOIN  `facs` ON `facs`.`ID` = `sections`.`id_fac` 
-			WHERE `id_event` = ? ",
-			[$this->getID()]
-		)[0];
-		$this->all []= [
-					'name' =>"<b>Количество мероприятий по факультетам: </b>",
-					'count' => '',
-		];
-		$s = DataBase::SQL("
-			SELECT  COUNT(`id_fac`) as `count`, `facs`.`name`
-			FROM `sections`
-			INNER JOIN `events`   ON `events`.`ID`   = `sections`.`id_event`
-            INNER JOIN `facs` ON `sections`.`id_fac` = `facs`.`ID`
-			WHERE  `events`.`ID` = ? 
-			GROUP BY `id_fac`",
-			[$this->getID()]
-		);
-		foreach ($s as $countPlace) {
-			$this->all []= ['name' =>$countPlace['name'],'count' => $countPlace['count'],];
-		}
+		// $this->all []= DataBase::SQL("
+		// 	SELECT COUNT(`sections`.`id_fac`) AS `count`, '<b>Количество мероприятий всего по конференции:</b>' as 'name'
+		// 	FROM `sections`
+		// 	INNER JOIN  `facs` ON `facs`.`ID` = `sections`.`id_fac` 
+		// 	WHERE `id_event` = ? ",
+		// 	[$this->getID()]
+		// )[0];
+		// $this->all []= [
+		// 			'name' =>"<b>Количество мероприятий по факультетам: </b>",
+		// 			'count' => '',
+		// ];
+		// $s = DataBase::SQL("
+		// 	SELECT  COUNT(`id_fac`) as `count`, `facs`.`name`
+		// 	FROM `sections`
+		// 	INNER JOIN `events`   ON `events`.`ID`   = `sections`.`id_event`
+  //          INNER JOIN `facs` ON `sections`.`id_fac` = `facs`.`ID`
+		// 	WHERE  `events`.`ID` = ? 
+		// 	GROUP BY `id_fac`",
+		// 	[$this->getID()]
+		// );
+		// foreach ($s as $countPlace) {
+		// 	$this->all []= ['name' =>$countPlace['name'],'count' => $countPlace['count'],];
+		// }
 		
-		$this->all []= ['name' =>"<b>Количество видов мероприятий: </b>",'count' => '',];
-		$s = DataBase::SQL("
-			SELECT  COUNT(`id_type_section`) as `count`, `type_sections`.`type`
-			FROM `sections`
-			INNER JOIN `events`   ON `events`.`ID`   = `sections`.`id_event`
-			INNER JOIN `type_sections` ON `type_sections`.`ID` = `sections`.`id_type_section`
-			WHERE  `events`.`ID` = ? 
-			GROUP BY `id_type_section`",
-			[$this->getID()]
-		);
-		foreach ($s as $countPlace) {
-			$this->all []= ['name' =>$countPlace['type'],'count' => $countPlace['count'],];
-		}
+		// $this->all []= ['name' =>"<b>Количество видов мероприятий: </b>",'count' => '',];
+		// $s = DataBase::SQL("
+		// 	SELECT  COUNT(`id_type_section`) as `count`, `type_sections`.`type`
+		// 	FROM `sections`
+		// 	INNER JOIN `events`   ON `events`.`ID`   = `sections`.`id_event`
+		// 	INNER JOIN `type_sections` ON `type_sections`.`ID` = `sections`.`id_type_section`
+		// 	WHERE  `events`.`ID` = ? 
+		// 	GROUP BY `id_type_section`",
+		// 	[$this->getID()]
+		// );
+		// foreach ($s as $countPlace) {
+		// 	$this->all []= ['name' =>$countPlace['type'],'count' => $countPlace['count'],];
+		// }
 
 		$this->all []= ['name' =>"<b>Количество рекомендаций: </b>",'count' => '',];
 		$s = DataBase::SQL('
@@ -186,8 +267,8 @@ class Stats
 			[$this->getID()]
 		)[0];
 		
-		// $this->countStip();
-		// $this->countUserFacs();
+		$this->countStip();
+		$this->countUserFacs();
 		
 		
 		return $this->all;

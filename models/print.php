@@ -59,12 +59,12 @@ foreach ($juriData as $j) {
 			break;
 		}
 	}
-	if (mb_strlen($j['middle_name']) < 1) {
-		echo "Ошибка. У комиссии введены не все данные: нужны полные ФИО"; die(); 
-	}
-	if (mb_strlen($j['first_name']) < 1) {
-		echo "Ошибка. У комиссии введены не все данные: нужны полные ФИО"; die(); 
-	}
+	// if (mb_strlen($j['middle_name']) < 1) {
+	// 	echo "Ошибка. У комиссии введены не все данные: нужны полные ФИО"; die(); 
+	// }
+	// if (mb_strlen($j['first_name']) < 1) {
+	// 	echo "Ошибка. У комиссии введены не все данные: нужны полные ФИО"; die(); 
+	// }
 	$jStr .= '
 		 <div class="col-3 text-center">
 		    <div class="col-md-12"><p>'.trim($j['last_name']).' '.trim($j['first_name']).' '.trim($j['middle_name']).', '.mb_strtolower($posJuri).'</p></div>
@@ -82,7 +82,7 @@ foreach ($rData as $rKey => $r) {
 	$mStr = [];
 	foreach ($members->select($r['ID']) as $mem) {
 		$mStr []= trim($mem['last_name']).' '.trim($mem['first_name']).' '.trim($mem['middle_name']).', '
-			.$mem['groupname'];
+			.$mem['groupname'].(($mem['name_organization'] != "ФГБОУ ВО «ЧГУ им. И.Н. Ульянова»") ? $mem['name_organization'] : "");
 	}
 	$sStr = [];
 	foreach ($supervisorsData as $sup) {
@@ -94,12 +94,12 @@ foreach ($rData as $rKey => $r) {
 					break;
 				}
 			}
-			if (mb_strlen($sup['middle_name']) < 1) {
-			echo "Ошибка. У научных руководителей введены не все данные: нужны полные ФИО"; die(); 
-			}
-			if (mb_strlen($sup['first_name']) < 1) {
-				echo "Ошибка. У научных руководителей введены не все данные: нужны полные ФИО"; die(); 
-			}
+			// if (mb_strlen($sup['middle_name']) < 1) {
+			// echo "Ошибка. У научных руководителей введены не все данные: нужны полные ФИО"; die(); 
+			// }
+			// if (mb_strlen($sup['first_name']) < 1) {
+			// 	echo "Ошибка. У научных руководителей введены не все данные: нужны полные ФИО"; die(); 
+			// }
 			$sStr []= trim($sup['last_name']).' '.trim($sup['first_name']).' '.trim($sup['middle_name']).', '
 				.$posSup;
 		}

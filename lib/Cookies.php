@@ -49,6 +49,7 @@ class Cookies
     	$userID = intval((isset($_COOKIE["id"])) ? $_COOKIE["id"] : 0);
 
     	if (!Cookies::issetUserData($userID)) {
+
 	    	Cookies::deleteCookies();
 	        return false;
 	    } else {
@@ -72,5 +73,22 @@ class Cookies
 		else 
 			$GLOBALS['user'] = $t[0];
 		return true;
+	}
+	
+	static function getNameUserRole() {
+		$role = "СуперАдминистратор";
+		switch($GLOBALS['user']['id_role']) {
+			case 0:
+				$role = "Пользователь системы";
+				break;
+			case 1:
+				$role = "Модератор системы";
+				break;
+			case 2:
+				$role = "Администратор системы";
+				break;
+				
+		}
+		return $GLOBALS['user']['first_name'].' Роль: '.$role;
 	}
 }

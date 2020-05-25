@@ -10,7 +10,9 @@ switch ($params[2]) {
 	break;
 	case "updateUserMode":
 		Cookies::authCheck();
+		
 		if ($GLOBALS['user']['id_role'] == 0) $d->withJson(false);
+	
 		$d->withJson($d->updateUserMode());
 	break;
 	

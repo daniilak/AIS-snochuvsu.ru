@@ -13,7 +13,9 @@ class Manual extends ManualDB {
 		if (!isset($_POST['new_role'])) {
 			$this->withJson(['error'=>'no param']);
 		}
-		if ($GLOBALS['user']['id_role'] <= $_POST['new_role']) {
+
+		if ($GLOBALS['user']['id_role'] >= $_POST['new_role']) {
+				
 			$this->updateUserRole($_POST['id'],  $_POST['new_role']);
 			return ['done' => true];	
 		} 

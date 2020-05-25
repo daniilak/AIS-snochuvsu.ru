@@ -36,6 +36,7 @@ class Requests extends RequestsDB {
 			$lFN = trim($member['lN']);
 			$lFNAr = explode(" ", $lFN);
 			$lFN = $lFNAr[0];
+			// var_dump($member['inst']);
 			$parse = $mem->parseLKCHUVSU(
 				$mId,
 				$member['inst'],
@@ -54,7 +55,8 @@ class Requests extends RequestsDB {
 		}
 		$leaders = json_decode($_POST['leaders'],true);
 		foreach($leaders as $leader) {
-			$idLead = $sup->insert($d);
+			$idLead = $sup->insert($IDEv);
+			// var_dump($idLead);
 			$sup->updateField("id_request", "[".$d."]", $idLead);
 			$sup->updateField("first_name", $leader['fN'], $idLead);
 			$sup->updateField("last_name", $leader['lN'], $idLead);
@@ -170,7 +172,7 @@ class Requests extends RequestsDB {
 		if (!isset($_POST['id'])) {
 			$this->withJson(['error'=>'no param']);
 		}
-		$rData = $this->select($_POST['id']);
+		$rData = $this->select($_POST['id'], 1);
 		require_once(__DIR__ . '/../positions/_DB.php'); $positions = new PositionsDB(); $positionsData = $positions->select();
 		require_once(__DIR__ . '/../supervisors/_DB.php'); $supervisors = new SupervisorsDB();
 		$supervisorsData = $supervisors->select($_POST['id']);
@@ -206,7 +208,9 @@ class Requests extends RequestsDB {
 				.' <b>«'
 				. $r['name_project'] 
 				.'»</b> <b>'
-				. (($r['place'] != 4) ? $r['place'] : "") 
+				. (($r['place'] != 4) 
+					? '<span data-toggle="tooltip" title="" class="badge bg-green">'.$r['place'].' место </span>'
+					: "") 
 				. '</b> '
 				. ( (count($mStr) > 0) ? implode(', ', $mStr) : "" ) 
 				.' '. ( (count($sStr) > 0) ? ' Руководитель(-и): '.implode(', ', $sStr) : "" ) 

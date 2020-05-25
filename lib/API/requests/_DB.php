@@ -19,9 +19,9 @@ class RequestsDB {
             false
         );
 	}
-	function select($id_section) {
+	function select($id_section, $moder = 0) {
 		return DataBase::SQL(
-            "SELECT * FROM `".$this->nameTable."` WHERE `id_section` = ? ORDER BY `ID`",
+            "SELECT * FROM `".$this->nameTable."` WHERE `id_section` = ? ". (($moder == 1) ? " AND `is_moderator` = 0 " : "")." ORDER BY `ID`",
             [$id_section]
         );
 	}

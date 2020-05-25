@@ -14,7 +14,7 @@ class RecsDB {
 	}
 	function appendRecomRequest($idRec, $idEv) {
 		return DataBase::SQL(
-            "INSERT INTO `recom_request` (`id_request`, `id_recom`) (?, ?)",
+            "INSERT INTO `recom_request` (`id_request`, `id_recom`) VALUES (?, ?)",
             [$idRec, $idEv],
             false
         );
@@ -27,6 +27,17 @@ class RecsDB {
         );
 	}
 	function updateRecomRequest($val, $idRec, $idEv) {
+		$t = DataBase::SQL(
+            "SELECT * FROM  `recom_request`  WHERE `id_request` = ? AND `id_recom` = ?",
+            [$idRec, $idEv]
+        );
+        if (!isset($t[0])) {
+        	DataBase::SQL(
+	            "INSERT INTO `recom_request` (`id_request`, `id_recom`) VALUES (?, ?)",
+	            [$idRec, $idEv],
+	            false
+	        );
+        }
 		return DataBase::SQL(
             "UPDATE `recom_request` SET `checked` = ?  WHERE `id_request` = ? AND `id_recom` = ?",
             [$val, $idRec, $idEv],

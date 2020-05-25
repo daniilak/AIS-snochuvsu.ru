@@ -19,7 +19,9 @@ class Menu {
 	function getOpen() {
 		$data = json_decode(file_get_contents(__DIR__ . '/../../../config.json'));
         $controllers = (array)$data->controllers;
+        // var_dump(Cookies::authCheckWithoutRedirect());
         if (Cookies::authCheckWithoutRedirect()) {
+        	
         	return $this->get();
         };
         $answer = [];

@@ -15,8 +15,10 @@ class TemplateEngine
     public function templateLoadInString($templateName, $vars)
     {
         if (!is_file('tpl/' . $templateName) || !$templateBuffer = file_get_contents('tpl/' . $templateName)) {
+        	
             return false;
         } else {
+        	// var_dump("sad");
             foreach ($vars as $var => $content) {
                 $templateBuffer = str_replace('{' . $var . '}', $content, $templateBuffer);
             }
