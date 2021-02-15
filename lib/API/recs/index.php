@@ -7,6 +7,11 @@ switch ($params[2]) {
 		Cookies::authCheck();
 		$d->withJson($d->get());
 	break;
+	case "getAll":
+		Cookies::authCheck();
+		if ($GLOBALS['user']['id_role'] < 3) {$d->withJson(["error"=>"default"]);exit();}
+		$d->withJson($d->getAll());
+	break;
 	case "insert":
 		Cookies::authCheck();
 		$d->withJson($d->insert());

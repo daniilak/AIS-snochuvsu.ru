@@ -140,6 +140,9 @@ containerFluid.children[0].children[1].className = "col-md-4 order-1 order-md-2"
 function getEvents() {
   remove(".row.events-list");
   let sendingData = new FormData();
+  let conf_id_val = document.querySelector(".filter_conf").value;
+  if ( conf_id_val != "")
+  conf_id = conf_id_val  
   sendingData.append("conf_id", conf_id);
   sendingData.append("filter_fac", document.querySelector(".filter_fac").value);
   sendingData.append(
@@ -175,6 +178,143 @@ function getEvents() {
   });
 }
 let userListForManual = [];
+function getCogs() {
+  remove(".row.manual-list");
+  getJSON("/api/conf/getAllData", null, data => {
+  	console.log(data)
+  	remove(".render-loader");
+	containerFluid.appendChild(cEl("h1", null, "Все действия на этой странице следует делать осторожно, так как из-за удаления старых данных, можно повредить работоспособность системы"))
+	containerFluid.appendChild(cEl("hr"))
+  
+  	containerFluid.appendChild(
+  		cDiv(
+  			[{ class: "form-group row" }], 
+	        [
+	        	cDiv(
+		          [{ class: "col-md-3" }],
+		          cEl("h4", null,"Активная конференция:")
+		        ),
+		        cDiv(
+		          [{ class: "col-md-6" }],
+		          cEl("select",[{class:"active-conf form-control"}, {onchange:`requestAction('conf_active', 0, this)`}])
+		        ),
+	        	cDiv(
+		          [{ class: "col-md-3" }],
+			      cEl("button", [{ class: "btn btn-block bg-success" },{ "data-toggle": "modal" },{ "data-target": "#appendConf" }],"Добавить конференцию")
+		         ),
+		         
+	        ]
+         )
+  	);
+  	data.forEach(d=> {
+  		document.querySelector(".active-conf").add(
+  			new Option(
+  				d.name_event,
+  				d.ID,
+  				d.is_active != "0" ? !0 : !1,
+  				d.is_active != "0" ? !0 : !1
+  			)
+  		)
+  	});
+  	containerFluid.appendChild(cEl("hr", null))
+  	data.forEach((d,index) => {
+  		containerFluid.appendChild(cEl("b", null, "Конференция №"+d.ID+":"))
+  		containerFluid.appendChild(
+  			cDiv({ class: "form-group row" }, [
+	        cDiv(
+	          { class: "col-md-12" },
+	          cEl("input", [
+	            { class: "form-control" },
+	            { type: "text" },
+	            { placeholder: "Название" },
+	            { value: d.name_event },
+	            { onchange: `requestAction('conf_name',${d.ID}, this)` }
+	          ])
+	        ),])
+	    )
+		containerFluid.appendChild(
+  			cDiv({ class: "form-group row" }, [
+	        cDiv(
+	          { class: "col-md-3" },
+	          [cEl("b", null, "Дата старта конференции:"),
+	          cEl("input", [
+	            { class: "form-control" },
+	            { type: "date" },
+	            { value: d.date_start },
+	            { onchange: `requestAction('conf_date_start',${d.ID}, this)` }
+	          ])]
+	        ),
+	        cDiv(
+	          { class: "col-md-3" },
+	          [cEl("b", null, "Дата конца конференции:"),
+	          cEl("input", [
+	            { class: "form-control" },
+	            { type: "date" },
+	            { value: d.date_end },
+	            { onchange: `requestAction('conf_date_end',${d.ID}, this)` }
+	          ])]
+	        ),
+	        cDiv(
+	          { class: "col-md-3" },
+	          [cEl("b", null, "Закрытие системы для модераторов:"),
+	          cEl("input", [
+	            { class: "form-control" },
+	            { type: "date" },
+	            { value: d.date_close_event },
+	            { onchange: `requestAction('conf_date_close_event',${d.ID}, this)` }
+	          ])]
+	        ),
+	        cDiv(
+	          { class: "col-md-3" },
+	          [cEl("b", null, "Последний день подачи заявок от участников:"),
+	          cEl("input", [
+	            { class: "form-control" },
+	            { type: "date" },
+	            { value: d.date_close_add },
+	            { onchange: `requestAction('conf_date_close_add',${d.ID}, this)` }
+	          ])]
+	        ),
+	        
+	      ])
+  		)
+  		containerFluid.appendChild(cEl("b", null, "Рекомендации:"))
+  		containerFluid.appendChild(cDiv({ class: "conf-"+d.ID }))
+  		
+  		
+  		
+  		containerFluid.appendChild(
+  			cEl("button", [{ class: "btn bg-success" }, {onclick: `requestAction('append_rec',${d.ID}, this)`}],"Добавить рекомендацию")
+  		)
+  		containerFluid.appendChild(cEl("hr", null))
+  	})
+
+    // containerFluid.appendChild(cDiv({ class: "row manual-list" }));
+    getJSON("/api/recs/getAll", null, recData => {
+  		recData.data.forEach( recDataEl => {
+			renderRecCogs(recDataEl)
+		})
+	})
+  });
+}
+function renderRecCogs(recDataEl) {
+	console.log(recDataEl)
+	let recIDDiv = document.querySelector(".conf-"+recDataEl.id_event)
+	recIDDiv.appendChild(
+		cDiv({class:"form-group row rec-"+recDataEl.ID},[
+			cDiv(
+				{ class: "col-md-6" },
+				cEl("input", [
+					{ class: "form-control" },
+					{ type: "text" },
+					{ placeholder: "Название" },
+					{ value: recDataEl.recommendation },
+					{ onchange: `requestAction('conf_rec',${recDataEl.ID}, this)` }
+				])
+			),
+			cDiv({ class: "col-md-6" }, cEl("button", [{ class: "btn bg-danger" }, {onclick: `requestAction('remove_rec',${recDataEl.ID}, this)`}],"Удалить"))
+		])	
+	)	
+}
 function getManual() {
   remove(".row.manual-list");
   getJSON("/api/manual/getUsersList", null, data => {
@@ -383,6 +523,22 @@ function sendPassEvent() {
     }
   });
 }
+function getConfsList() {
+	let optionsConfs = [];
+  let optionsConfsForAdd = document.querySelector('.filter_conf');
+	getJSON("/api/conf/getAll", null, data => {
+		data.forEach(f => {
+	      optionsConfsForAdd.add(
+	        new Option(
+	          f.name_event,
+	          f.ID,
+	          f.is_active == "1" ? !0 : !1,
+	          f.is_active == "1" ? !0 : !1
+	        )
+	      );
+	  });
+	})
+}
 function renderSearchEventBlock() {
   let optionsFacs = [new Option("Все факультеты", 1)];
   let optionsFacsForAdd = document.querySelector('[name="add-event-fac"]');
@@ -418,6 +574,18 @@ function renderSearchEventBlock() {
   document
     .querySelector('[name="add-event-conf-id"]')
     .add(new Option(conf_name, conf_id));
+  containerFluid.appendChild(
+    cDiv({ class: "row mb-12" }, [
+      cDiv(
+        { class: "col-md-12 form-group" },
+        cEl(
+          "select",
+          [
+            { onchange: "onchangeConf()" },
+            { class: "form-control boxed filter_conf" }
+          ],
+        )
+      )]))
   containerFluid.appendChild(
     cDiv({ class: "row mb-3" }, [
       cDiv(

@@ -179,7 +179,7 @@ class Events extends EventsDB {
 			$this->withJson(['error'=>'no param']);
 		}
 
-		$data = [$GLOBALS['user']['id_vk'],intval($_POST['conf-id']), intval($_POST['fac']), intval($_POST['type']), trim($_POST['name']), intval($_POST['date']),trim($_POST['location']),trim($_POST['pass'])];
+		$data = [$GLOBALS['user']['id_vk'],intval($_POST['conf-id']), intval($_POST['fac']), intval($_POST['type']), trim($_POST['name']), $_POST['date'],trim($_POST['location']),trim($_POST['pass'])];
 		$d = $this->insert($data);
 		
 		return $d;

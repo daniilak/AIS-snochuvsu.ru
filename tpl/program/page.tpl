@@ -181,10 +181,10 @@
 		</div>
 	</div>
 	    <script src="//ais.snochuvsu.ru/plugins/jquery/jquery.min.js"></script>
-	<script src="//ais.snochuvsu.ru/dist/js/root.js?v=13"></script>
-	<script src="//ais.snochuvsu.ru/dist/js/public.js?v=13"></script>
-	<script src="//ais.snochuvsu.ru/dist/js/actions.js?v=13"></script>
-    <script src="//ais.snochuvsu.ru/dist/js/loader.js?v=13"></script>
+	<script src="//ais.snochuvsu.ru/dist/js/root.js?v=30"></script>
+	<script src="//ais.snochuvsu.ru/dist/js/public.js?v=30"></script>
+	<script src="//ais.snochuvsu.ru/dist/js/actions.js?v=30"></script>
+    <script src="//ais.snochuvsu.ru/dist/js/loader.js?v=30"></script>
     <script src="https://www.cssscript.com/demo/multi-select-autocomplete-selectpure/bundle.min.js"></script>
 
   

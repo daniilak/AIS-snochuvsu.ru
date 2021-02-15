@@ -87,6 +87,7 @@ setTimeout(function tick() {
     }
     if (window.location.pathname.split("/")[1] == "events") {
       renderSearchEventBlock();
+      getConfsList();
       getEvents();
     }
     if (window.location.pathname.split("/")[1] == "program") {
@@ -96,6 +97,10 @@ setTimeout(function tick() {
     if (window.location.pathname.split("/")[1] == "manual") {
       getManual();
     }
+    if (window.location.pathname.split("/")[1] == "cogs") {
+      getCogs();
+    }
+    
     if (window.location.pathname.split("/")[1] == "event") {
       id_event = window.location.pathname.split("/")[2];
       if (id_event.length == 0) {
@@ -156,6 +161,14 @@ let who = [
     id: "",
     text: "Аспирантура",
     children: [{ id: "a0", text: "Все курсы аспирантуры" }]
+  },
+   {
+    id: "",
+    text: "Ординатура",
+    children: [
+      { id: "o1", text: "1 курс орд" },
+      { id: "o2", text: "2 курс орд" }
+    ]
   }
 ];
 let recsList = [];

@@ -36,6 +36,9 @@ function onchangeFilterFac() {
   getEvents()
 }
 
+function onchangeConf() {
+  getEvents()
+}
 function onchangeFilterType() {
   let a = document.querySelector('.filter_type')
   document.cookie = "filter_type=" + a.value + ";expires=15/02/2025 00:00:00";
@@ -183,6 +186,80 @@ function delRequestPure(id) {
 }
 
 function requestAction(action, id = 0, el = null) {
+  if (action == 'conf_active') {
+    let sendingData = new FormData();
+    sendingData.append('new_active', el.value);
+    getJSON("/api/conf/setConfActive", sendingData, data => {
+      alert("Готово.Сейчас страница перезагрузится!")
+      location.reload()
+    })
+  }
+  if (action == 'conf_name') {
+    let sendingData = new FormData();
+    sendingData.append('id', id);
+    sendingData.append('conf_name', el.value);
+    getJSON("/api/conf/setConfName", sendingData, data => {
+    })
+  }
+  if (action == 'conf_rec') {
+    let sendingData = new FormData();
+    sendingData.append('id', id);
+    sendingData.append('rec_name', el.value);
+    getJSON("/api/conf/setRecName", sendingData, data => {
+    })
+  }
+  if (action == 'remove_rec') {
+  	if (!confirm("Вы действительно хотите удалить?")) {
+      return
+    }
+  	let sendingData = new FormData();
+    sendingData.append('id', id);
+    getJSON("/api/conf/removeRec", sendingData, data => {
+    	document.querySelector(".rec-"+id).remove();
+    })
+  }
+  if (action == 'append_rec') {
+    let sendingData = new FormData();
+    sendingData.append('id', id);
+    getJSON("/api/conf/appendRec", sendingData, data => {
+    	renderRecCogs(data[0])
+    })
+  }
+  
+  if (action == 'conf_date_start') {
+    let sendingData = new FormData();
+    sendingData.append('id', id);
+    sendingData.append('val', el.value);
+    sendingData.append('date', "date_start");
+    getJSON("/api/conf/setDate", sendingData, data => {
+    })
+  }
+  if (action == 'conf_date_end') {
+    let sendingData = new FormData();
+    sendingData.append('id', id);
+    sendingData.append('val', el.value);
+    sendingData.append('date', "date_end");
+    getJSON("/api/conf/setDate", sendingData, data => {
+    })
+  }
+  if (action == 'conf_date_close_event') {
+    let sendingData = new FormData();
+    sendingData.append('id', id);
+    sendingData.append('val', el.value);
+    sendingData.append('date', "date_close_event");
+    getJSON("/api/conf/setDate", sendingData, data => {
+    })
+  }
+  if (action == 'conf_date_close_add') {
+    let sendingData = new FormData();
+    sendingData.append('id', id);
+    sendingData.append('val', el.value);
+    sendingData.append('date', "date_close_add");
+    getJSON("/api/conf/setDate", sendingData, data => {
+    })
+  }
+  
+  
   if (action == 'search') {
     searchUserManual(el.value, document.querySelector("#showUsers:checked").value)
   }

@@ -49,7 +49,7 @@ function renderMenu(menu) {
 
 let auth = 0;
 function getEvents() {
-  remove(".timeline.events-list");
+  remove(".events-list");
   let sendingData = new FormData();
   sendingData.append("conf_id", conf_id);
   sendingData.append("filter_fac", document.querySelector(".filter_fac").value);
@@ -64,26 +64,26 @@ function getEvents() {
   sendingData.append("filter_for", document.querySelector(".filter_for").value);
   let month = [
     "",
-    "янв.",
-    "фев.",
-    "мар.",
-    "апр.",
+    "января",
+    "февраля",
+    "марта",
+    "апреля",
     "мая",
-    "июн.",
-    "июл.",
-    "авг.",
-    "сен.",
-    "окт.",
-    "нояб.",
-    "дек."
+    "июня",
+    "июля",
+    "августа",
+    "сентября",
+    "октября",
+    "ноября",
+    "декабря"
   ];
   getJSON("/api/auth/getAll", null, authD => {
     auth = authD.role;
     getJSON("/api/events/getAllByGroupDate", sendingData, data => {
       remove(".render-loader");
 
-      containerFluid.children[containerFluid.children.length - 1].appendChild(
-        cEl("ul", { class: "timeline events-list" })
+      containerFluid.children[0].appendChild(
+        cDiv({ class: "events-list" })
       );
       let container = document.querySelector(".events-list");
 
@@ -91,13 +91,9 @@ function getEvents() {
         for (key in data) {
           let l = key.split(/[-]/);
           container.appendChild(
-            cEl(
-              "li",
-              { class: "time-label" },
-              cSpan(
-                { class: "bg-green" },
-                `${l[2]} ${month[parseInt(l[1])]} ${l[0]}`
-              )
+            cEl("h2",
+              { style: "font-weight: bold;" },
+              `${l[2]} ${month[parseInt(l[1])]} ${l[0]}`
             )
           );
           data[key].forEach(dataEl => {
@@ -186,8 +182,9 @@ function renderSearchEventBlock() {
     .querySelector('[name="add-event-conf-id"]')
     .add(new Option(conf_name, conf_id));
 
+  containerFluid.appendChild(cDiv({ class: "col-md-9" }))
   containerFluid.appendChild(
-    cDiv({ class: "col-md-3" }, [
+    cDiv({ class: "col-md-3 order-first order-sm-last" }, [
       cEl("h4", { class: "form-group row" }, "Фильтр:"),
       cDiv({ class: "form-group row" }, [
         cEl("label", null, "Искать:"),
@@ -243,7 +240,7 @@ function renderSearchEventBlock() {
     });
     group.appendTo($select);
   });
-  containerFluid.appendChild(cDiv({ class: "col-md-9" }));
+
 }
 
 function renderBlockEvent(data) {
@@ -257,23 +254,20 @@ function renderBlockEvent(data) {
     if (p.ID == Number(data["m1"]["id_position"])) pos_1 = p.name;
     if (p.ID == Number(data["m2"]["id_position"])) pos_2 = p.name;
   });
-  return cEl("li", null, [
-    cDiv(
+  return cDiv(
       [
-        { class: "timeline-item DivIdToPrint" },
+        { class: "card DivIdToPrint" },
         { id: `DivIdToPrint_${data["ID"]}` }
       ],
       [
-        cSpan({ class: "time bg-purple" }, [
-          cEl("i", { class: "fa fa-clock-o" }),
-          `${t[3]}:${t[4]}`
-        ]),
         cEl(
-          "h2",
-          { class: "timeline-header text-light-blue" },
-          cEl("b", null, `«` + data["name"] + `»`)
+          "h4",
+          { class: "card-header row" },[
+          	cDiv([{class:"col-md-1 border-right bg-light"}, {style:"text-align: center;font-size: 1.5rem;"}], `${t[3]}:${t[4]}`),
+          	cDiv([{class:"col-md-11 text-light-blue"}], cEl("b", null, `«` + data["name"] + `»`))
+          ]
         ),
-        cDiv({ class: "timeline-body row" }, [
+        cDiv({ class: "card-body row" }, [
           cDiv({ class: "col-md-4 border-right" }, [
             cEl("p", { class: "timeline-header" }, [
               cEl("i", { class: "fa fa-fw fa-exclamation" }),
@@ -322,7 +316,8 @@ function renderBlockEvent(data) {
                 { "data-toggle": "modal" },
                 { "data-idsec": data["ID"] },
                 {onclick:"idsec = " + data["ID"] + ";"},
-                { class: "btn btn-success btn-block" }
+                { class: "btn btn-success btn-block" },
+                {style:"color: #373e39 !important;background-color: #27e283 !important;"}
               ],
               "Подать заявку"
             ),
@@ -331,7 +326,8 @@ function renderBlockEvent(data) {
               [
                 { type: "button" },
                 { onclick: `geListMembers(0, ${data["ID"]}, this);` },
-                { class: "btn btn-warning btn-block" }
+                { class: "btn btn-warning btn-block" },
+                {style:"background-color: #b783fd !important;border: 0;"}
               ],
               "Показать список участников"
             ),
@@ -342,7 +338,8 @@ function renderBlockEvent(data) {
                   [
                     { role: "button" },
                     { href: `/event/${data["ID"]}` },
-                    { class: "btn btn-warning btn-block" }
+                    { class: "btn btn-warning btn-block" },
+                	{style:"background-color: #b783fd !important;border: 0;"}
                   ],
                   "Редактировать в АИС"
                 ),
@@ -350,10 +347,10 @@ function renderBlockEvent(data) {
               "button",
               [
                 { type: "button" },
-                {style:"display:none"},
                 {"data-print":data["ID"]},
                 { onclick: `printDiv('DivIdToPrint_${data["ID"]}');` },
-                { class: "btn btn-info btn-block" }
+                { class: "btn btn-info btn-block" },
+                {style:"display:none;background-color: #b783fd !important;border: 0;"}
               ],
               "Печать"
             ),
@@ -366,8 +363,7 @@ function renderBlockEvent(data) {
           { style: "display:none;" }
         ])
       ]
-    )
-  ]);
+    );
 }
 
 function geListMembers(isCloseHide, id, el) {

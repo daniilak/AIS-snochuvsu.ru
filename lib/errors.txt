@@ -620,3 +620,448 @@ Stack trace:
 [19:56:50 12.05.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/stats.php на строке 10: Invalid argument supplied for foreach()
 [19:57:20 12.05.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/stats.php на строке 11: Invalid argument supplied for foreach()
 [15:28:44 22.05.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 3: Undefined offset: 1
+[20:49:25 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[20:49:29 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[20:52:24 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[20:53:08 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[20:53:30 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[20:53:32 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[20:53:43 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[20:53:44 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[20:53:46 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[20:55:24 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[20:55:27 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:19:12 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:22:45 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:23:04 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:23:56 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:24:29 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:24:36 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:26:24 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:26:26 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:27:51 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:27:54 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:27:58 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:28:00 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:28:02 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:28:25 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:30:58 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:31:41 07.07.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 22: Undefined offset: 0
+[21:33:27 13.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/API/events/_DB.php на строке 24: Undefined offset: 0
+[21:33:27 13.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/API/events/_DB.php на строке 24: Undefined offset: 0
+[21:33:27 13.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/API/events/_DB.php на строке 24: Undefined offset: 0
+[21:34:58 13.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/API/events/_DB.php на строке 24: Undefined offset: 0
+[21:34:58 13.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/API/events/_DB.php на строке 24: Undefined offset: 0
+[21:34:58 13.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/API/events/_DB.php на строке 24: Undefined offset: 0
+[18:05:55 14.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[18:05:57 14.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[18:05:58 14.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[18:05:58 14.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[18:06:01 14.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[18:06:07 14.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:28:11 15.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:28:15 15.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:28:19 15.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:28:20 15.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:28:48 15.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:28:49 15.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:28:49 15.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:28:54 15.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:28:58 15.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:28:58 15.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:29:04 15.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:29:05 15.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[09:01:13 23.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 3: Undefined offset: 1
+[09:08:22 23.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 3: Undefined offset: 1
+[09:15:05 23.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 3: Undefined offset: 1
+[21:49:40 24.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[21:49:43 24.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[21:49:57 24.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[21:50:16 24.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[21:52:16 24.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[21:52:18 24.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[21:52:19 24.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[21:52:19 24.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[21:52:19 24.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[21:52:20 24.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[21:52:20 24.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:14:19 24.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:14:21 24.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:14:22 24.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:14:23 24.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:34:53 30.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:34:54 30.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:34:57 30.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:34:57 30.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:35:12 30.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/API/events/_DB.php на строке 26: Undefined index: ID
+[00:35:13 30.10.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/API/events/_DB.php на строке 26: Undefined index: ID
+[14:00:00 08.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[14:00:04 08.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[14:00:05 08.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[14:00:11 08.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[14:00:12 08.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[14:00:12 08.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[19:10:01 13.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/print.php на строке 3: Undefined offset: 1
+[22:35:17 15.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:35:20 15.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:35:21 15.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:35:21 15.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:35:24 15.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:35:25 15.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:35:25 15.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:35:25 15.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:35:25 15.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:35:36 15.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:35:36 15.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:35:37 15.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:35:37 15.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[22:35:41 15.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:04:18 16.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/list.php на строке 4: Undefined variable: box
+[08:01:13 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:27 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:50 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:53 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:53 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:53 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:53 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:53 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:53 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:53 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:54 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:54 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:56 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:56 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:56 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:56 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:56 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:56 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:57 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:57 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:57 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:57 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:57 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:57 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:58 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:58 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:58 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:58 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:58 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:59 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:59 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:59 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:59 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:01:59 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:00 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:01 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:01 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:01 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:01 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:02 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:02 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:02 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:03 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:03 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:03 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:04 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:04 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:04 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:05 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:06 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:06 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:06 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:07 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:07 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:07 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:08 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:08 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:08 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:12 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:25 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:26 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:26 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:26 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:26 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:27 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:27 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:42 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:42 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[08:02:42 17.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:05:24 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:05:28 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:05:53 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:05:55 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:05:55 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:05:55 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:05:56 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:05:56 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:12 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:18 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:18 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:18 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:19 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:19 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:19 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:19 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:19 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:19 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:19 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:21 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:21 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:21 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:21 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:21 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:54 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:06:59 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:00 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:00 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:01 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:03 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:04 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:18 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:19 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:19 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:21 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:21 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:21 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:07:41 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:50 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:52 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:53 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:53 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:53 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:53 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:53 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:53 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:54 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:54 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:54 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:54 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:54 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:55 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:55 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:55 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:55 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:09:55 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:11:14 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:05 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:06 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:06 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:06 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:07 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:07 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:07 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:07 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:07 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:07 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:08 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:08 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:08 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:08 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:08 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:08 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:09 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:09 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:09 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:09 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:09 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:09 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:10 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:10 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:10 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:10 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:27:10 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:04 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:06 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:06 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:07 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:07 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:07 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:07 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:07 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:07 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:08 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:08 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:09 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:09 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:16 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:16 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:16 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:16 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:16 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:16 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:17 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:17 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:17 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:17 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:17 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:17 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:18 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:18 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:18 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:19 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:19 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:19 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:19 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:19 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:58:20 22.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:06:44 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:06:46 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:06:46 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:06:47 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:06:47 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:06:48 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:43 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:45 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:45 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:45 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:45 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:46 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:46 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:46 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:46 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:46 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:46 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:48 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:48 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:48 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:48 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:48 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:48 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:49 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:49 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:49 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:49 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:49 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:50 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:07:50 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:20 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:23 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:24 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:24 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:24 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:27 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:28 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:28 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:28 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:28 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:29 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:29 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:29 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:29 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:29 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:29 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:29 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:30 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:30 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:30 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:30 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:30 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:31 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:31 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:31 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:31 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:32 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:32 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:33 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:33 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:34 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:34 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[23:57:34 23.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:03:39 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:03:43 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:03:44 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:03:44 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:03:44 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:03:44 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:03:45 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:03:45 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:03:45 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:03:45 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:22:02 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:22:05 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:22:06 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:22:06 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:19 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:24 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:24 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:24 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:25 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:25 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:25 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:25 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:25 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:25 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:43 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:43 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:43 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:44 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:44 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:59 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:23:59 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:24:21 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:24:22 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:24:22 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:24:23 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:24:23 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:24:23 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:24:23 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:24:23 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:24:23 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:24:24 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:24:24 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:24:24 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:24:24 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[00:26:22 24.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:54:24 25.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:54:26 25.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:54:27 25.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:54:28 25.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:54:32 25.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:54:45 25.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:54:56 25.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:55:49 25.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:56:47 25.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[12:57:18 25.11.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/DataBase.php на строке 45: Array to string conversion
+[13:42:41 11.12.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/models/main.php на строке 25: Undefined offset: 0
+[21:15:22 20.12.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/Ref.php на строке 92: file_get_contents(http://lk.chuvsu.ru/export/student_info.php?zachetka=04701191&fam=%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B0): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[21:15:29 20.12.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/Ref.php на строке 92: file_get_contents(http://lk.chuvsu.ru/export/student_info.php?zachetka=04701191&fam=%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B0): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[21:15:53 20.12.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/Ref.php на строке 92: file_get_contents(http://lk.chuvsu.ru/export/student_info.php?zachetka=04701191&fam=%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B0): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[21:16:04 20.12.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/Ref.php на строке 92: file_get_contents(http://lk.chuvsu.ru/export/student_info.php?zachetka=04701191&fam=%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B0): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[21:16:19 20.12.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/Ref.php на строке 92: file_get_contents(http://lk.chuvsu.ru/export/student_info.php?zachetka=04701191&fam=%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B0): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[21:16:31 20.12.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/Ref.php на строке 92: file_get_contents(http://lk.chuvsu.ru/export/student_info.php?zachetka=04701191&fam=%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B0): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[21:18:10 20.12.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/Ref.php на строке 92: file_get_contents(http://lk.chuvsu.ru/export/student_info.php?zachetka=04701191&fam=%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B0): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[21:18:15 20.12.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/Ref.php на строке 92: file_get_contents(http://lk.chuvsu.ru/export/student_info.php?zachetka=04701191&fam=%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B0): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[21:24:12 20.12.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/Ref.php на строке 92: file_get_contents(http://lk.chuvsu.ru/export/student_info.php?zachetka=04701191&fam=%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B0): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[21:24:16 20.12.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/Ref.php на строке 92: file_get_contents(http://lk.chuvsu.ru/export/student_info.php?zachetka=04701191&fam=%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B0): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[21:30:18 20.12.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/Ref.php на строке 92: file_get_contents(http://lk.chuvsu.ru/export/student_info.php?zachetka=04721052&fam=%D0%92%D0%B8%D1%80%D1%8C%D1%8F%D0%BB%D0%BE%D0%B2%D0%B0): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[21:30:21 20.12.2020] Ошибка в файле /home/b/bikluss/ais2/public_html/lib/Ref.php на строке 92: file_get_contents(http://lk.chuvsu.ru/export/student_info.php?zachetka=04721052&fam=%D0%92%D0%B8%D1%80%D1%8C%D1%8F%D0%BB%D0%BE%D0%B2%D0%B0): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[20:19:55 12.02.2021] Ошибка в файле /home/b/bikluss/ais2/public_html/models/diploma.php на строке 81: Undefined offset: 0
+[20:20:05 12.02.2021] Ошибка в файле /home/b/bikluss/ais2/public_html/models/diploma.php на строке 81: Undefined offset: 0

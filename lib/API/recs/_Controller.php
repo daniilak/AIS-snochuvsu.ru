@@ -25,6 +25,13 @@ class Recs extends RecsDB {
 		
 		return ['list'=>$list, 'checked'=>$checked];
 	}
+	function getAll() {
+		
+		$ev = new EventsDB();
+
+		return ['data'=>$ev->getAllRecoms()];
+
+	}
 	function update() {
 		if (!isset($_POST['id'])) {
 			$this->withJson(['error'=>'no param']);

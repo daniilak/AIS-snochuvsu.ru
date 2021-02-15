@@ -31,7 +31,7 @@ strong.select2-results__group {
 </style>
 </head>
 
-<body class="hold-transition skin-blue layout-top-nav" data-version="400" data-role="{role}">
+<body class="hold-transition skin-blue layout-top-nav" data-version="800" data-role="{role}">
   <div class="wrapper">
   	<nav class="navbar navbar-expand-sm navbar-dark navbar-gray-dark">
       <a class="navbar-brand" href="/">АИС СНО «Основа»</a>
@@ -154,12 +154,12 @@ strong.select2-results__group {
 		</div>
 	</div>
 	<script src="//ais.snochuvsu.ru/plugins/jquery/jquery.min.js"></script>
-	<script src="//ais.snochuvsu.ru/dist/js/root.js?v=21"></script>
+	<script src="//ais.snochuvsu.ru/dist/js/root.js?v=40"></script>
     <script src="https://www.cssscript.com/demo/multi-select-autocomplete-selectpure/bundle.min.js"></script>
     <script src="//ais.snochuvsu.ru/plugins/select2/js/select2.min.js"></script>
-	<script src="//ais.snochuvsu.ru/dist/js/render.js?v=26"></script>
-	<script src="//ais.snochuvsu.ru/dist/js/actions.js?v=21"></script>
-    <script src="//ais.snochuvsu.ru/dist/js/loader.js?v=21"></script>
+	<script src="//ais.snochuvsu.ru/dist/js/render.js?v=40"></script>
+	<script src="//ais.snochuvsu.ru/dist/js/actions.js?v=40"></script>
+    <script src="//ais.snochuvsu.ru/dist/js/loader.js?v=46"></script>
     <script src="//ais.snochuvsu.ru/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
 </body>

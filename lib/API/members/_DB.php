@@ -50,8 +50,11 @@ class MembersDB {
     	if ($idTypeInst == 0) {
     		$isChuvsu = 1;
 	    	$record = Ref::student_info($num_student,trim($lName));
+	    	// var_dump($record);
 	    	if (isset($record['record'])) {
 	    		$record = (isset($record['record'][0])) ? $record['record'][count($record['record']) - 1]  : $record['record'];
+				$fam = (is_array($record['fam'])) ? implode(" ", $record['fam']) : $record['fam'];
+				$nam = (is_array($record['nam'])) ? implode(" ", $record['nam']) : $record['nam'];
 				$oth = (is_array($record['oth'])) ? implode(" ", $record['oth']) : $record['oth'];
 				if (is_array($record['groupname'])) {
 					$record['groupname'] = '';
@@ -59,8 +62,8 @@ class MembersDB {
 				$this->updateData(
 					$id,
 					$idTypeInst,
-					$record['fam'], // $lName
-					$record['nam'], // $fname
+					$fam, // $lName
+					$nam, // $fname
 					$oth, // $mname
 					$num_student,
 					$b,
@@ -69,7 +72,7 @@ class MembersDB {
 					$isChuvsu,
 					$record['faculty_id'],$record['groupname'],$record['course'],$record['level']
 				);
-				return ["0", $id,$idTypeInst,$record['fam'],$record['nam'], $oth,$num_student,$b,$cityOrg,$nameOrg,$phone,$isChuvsu,
+				return ["0", $id,$idTypeInst,$fam,$nam, $oth,$num_student,$b,$cityOrg,$nameOrg,$phone,$isChuvsu,
 					$record['faculty_id'],$record['groupname'],$record['course'],$record['level']
 				];
 	    	} else {

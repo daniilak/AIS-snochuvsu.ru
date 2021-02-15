@@ -1,6 +1,6 @@
 <?php
 require_once('lib/Stats.php');
-$id = 5;
+$id = 6;
 $stats = new Stats($id);
 
 $box = '<table class="table table-bordered table-hover">';

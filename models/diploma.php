@@ -41,7 +41,7 @@ function getSign($place, $id_fac,$facs) {
 			<div class="row" style="font-size:20px;">
 				<div class="col-2"></div>
 				<div class="col-4">
-					'.((intval($id_fac) < 17) ? "Декан " : ((intval($id_fac) == 18) ? "Директор" : "Заведующий кафедрой") )
+					'.((intval($id_fac) < 17) ? "Декан " : ((intval($id_fac) == 18) ? "Директор" : "Заведующий ") )
 					.' '.$facs->selectByID($id_fac)[0]['description'].'</div>
 				<div class="col-2"></div>
 				<div class="col-3 text-right">'.$facs->selectByID($id_fac)[0]['decan'].'</div>

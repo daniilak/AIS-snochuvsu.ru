@@ -11,11 +11,20 @@ class EventsDB {
         );
 		
 	}
+	function getAllRecoms() {
+		return DataBase::SQL("SELECT * FROM `recommendations`;");
+	}
 	function selectPassByID($id_event) {
 		return DataBase::SQL("SELECT `pass` FROM  `".$this->nameTable."`  WHERE `ID` = ?",[$id_event]);
 	}
+	function select_Active() {
+		return DataBase::SQL(
+            "SELECT ID, name_event FROM `events` WHERE is_active = 1"
+        );
+	}
 	function selectIdAndName($id_fac) {
-		return DataBase::SQL("SELECT `ID`, name FROM  `".$this->nameTable."`  WHERE `id_fac` = ? AND `id_event` = 5 ORDER BY `name`",[$id_fac]);
+		$a = $this->select_Active();
+		return DataBase::SQL("SELECT `ID`, name FROM  `".$this->nameTable."`  WHERE `id_fac` = ? AND `id_event` = ? ORDER BY `name`",[$id_fac,$a[0]['ID']]);
 	}
 	function selectIDConf($id_event) {
 		return DataBase::SQL(
@@ -46,7 +55,7 @@ class EventsDB {
             	FROM `".$this->nameTable."`
             	LEFT JOIN users
             	ON users.id_vk = secretary_vk_id
-            	WHERE `id_event` = ? ". $str ." ORDER BY `name`",
+            	WHERE `id_event` = ? ". $str ." ORDER BY `datetime`",
             [$id_event]
         );
 	}
